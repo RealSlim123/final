@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding-bottom: 100px;
+    background-color: rgb(35, 32, 30)
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 64px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod
+}
+
+h4 {
+    text-align:center;
+    color: white;
+    font-size: 24;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.common {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white
+}
+
+.mainbody {
+    background-color:  rgb(35, 32, 30)
+    color: white;
+    font-size: 28px;
+    padding: 40px;
+}
+
+ol, ul {
+    width: fit-content;
+    margin: 0px auto 20px auto;
+    text-align: left;
+    padding-left: 2px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: goldenrod;
+    width: 75%;
+    margin: 50px auto;
+}
+
+.footer {
+    background-color: goldenrod;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    line-height: 100px;
+    font-size: 32px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+nav {
+    background-color: goldenrod;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .tableauPlaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tableauViz {
+    width: 100%;
+    height: 600px;
+}
